@@ -1,0 +1,47 @@
+[0.312s] Invoking command in '/home/ryokozuka/ros2_ws/build/person_msgs': /usr/bin/cmake /home/ryokozuka/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/ryokozuka/ros2_ws/install/person_msgs
+[0.583s] -- The C compiler identification is GNU 11.4.0
+[1.118s] -- The CXX compiler identification is GNU 11.4.0
+[1.682s] -- Detecting C compiler ABI info
+[1.913s] -- Detecting C compiler ABI info - done
+[1.919s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.965s] -- Detecting C compile features
+[1.967s] -- Detecting C compile features - done
+[1.976s] -- Detecting CXX compiler ABI info
+[2.214s] -- Detecting CXX compiler ABI info - done
+[2.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.227s] -- Detecting CXX compile features
+[2.228s] -- Detecting CXX compile features - done
+[2.284s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.507s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.721s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.743s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.266s] Error parsing '/home/ryokozuka/ros2_ws/src/person_msgs/package.xml':
+[3.310s] Traceback (most recent call last):
+[3.311s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.311s]     main()
+[3.311s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.311s]     raise e
+[3.311s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.311s]     package = parse_package_string(
+[3.311s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[3.312s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[3.312s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ryokozuka/ros2_ws/src/person_msgs/package.xml':
+[3.312s] Error(s):
+[3.312s] - The manifest of package "person_msgs" (with format version 3) must not contain the following tags: menber_of_group
+[3.325s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.326s]   execute_process(/usr/bin/python3.10
+[3.326s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.326s]   /home/ryokozuka/ros2_ws/src/person_msgs/package.xml
+[3.326s]   /home/ryokozuka/ros2_ws/build/person_msgs/ament_cmake_core/package.cmake)
+[3.326s]   returned error code 1
+[3.326s] Call Stack (most recent call first):
+[3.326s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.327s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[3.327s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[3.327s] 
+[3.327s] [0m
+[3.327s] -- Configuring incomplete, errors occurred!
+[3.327s] See also "/home/ryokozuka/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[3.335s] Invoked command in '/home/ryokozuka/ros2_ws/build/person_msgs' returned '1': /usr/bin/cmake /home/ryokozuka/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/ryokozuka/ros2_ws/install/person_msgs

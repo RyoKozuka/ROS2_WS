@@ -1,0 +1,26 @@
+[0.561s] Invoking command in '/home/ryokozuka/ros2_ws/src/mypkg': PYTHONPATH=/home/ryokozuka/ros2_ws/build/mypkg/prefix_override:/home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryokozuka/ros2_ws/build/mypkg/build install --record /home/ryokozuka/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[0.760s] running egg_info
+[0.761s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.761s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.762s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.762s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.762s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.764s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.764s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.765s] running build
+[0.765s] running build_py
+[0.765s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.765s]   warnings.warn(
+[0.765s] running install
+[0.766s] running install_lib
+[0.767s] running install_data
+[0.768s] copying package.xml -> /home/ryokozuka/ros2_ws/install/mypkg/share/mypkg
+[0.768s] copying launch/talk_listen.launch.py -> /home/ryokozuka/ros2_ws/install/mypkg/share/mypkg
+[0.768s] running install_egg_info
+[0.770s] removing '/home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.771s] Copying ../../build/mypkg/mypkg.egg-info to /home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.772s] running install_scripts
+[0.788s] Installing listener script to /home/ryokozuka/ros2_ws/install/mypkg/lib/mypkg
+[0.789s] Installing talker script to /home/ryokozuka/ros2_ws/install/mypkg/lib/mypkg
+[0.789s] writing list of installed files to '/home/ryokozuka/ros2_ws/build/mypkg/install.log'
+[0.810s] Invoked command in '/home/ryokozuka/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ryokozuka/ros2_ws/build/mypkg/prefix_override:/home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryokozuka/ros2_ws/build/mypkg/build install --record /home/ryokozuka/ros2_ws/build/mypkg/install.log --single-version-externally-managed

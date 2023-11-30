@@ -1,0 +1,35 @@
+[0.764s] Invoking command in '/home/ryokozuka/ros2_ws/src/mypkg': PYTHONPATH=/home/ryokozuka/ros2_ws/build/mypkg/prefix_override:/home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryokozuka/ros2_ws/build/mypkg/build install --record /home/ryokozuka/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[0.960s] running egg_info
+[0.960s] creating ../../build/mypkg/mypkg.egg-info
+[0.960s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.961s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.961s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.961s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.961s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.962s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.963s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.964s] running build
+[0.964s] running build_py
+[0.964s] creating /home/ryokozuka/ros2_ws/build/mypkg/build
+[0.964s] creating /home/ryokozuka/ros2_ws/build/mypkg/build/lib
+[0.964s] creating /home/ryokozuka/ros2_ws/build/mypkg/build/lib/mypkg
+[0.964s] copying mypkg/__init__.py -> /home/ryokozuka/ros2_ws/build/mypkg/build/lib/mypkg
+[0.964s] running install
+[1.008s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.008s]   warnings.warn(
+[1.008s] running install_lib
+[1.010s] creating /home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.011s] copying /home/ryokozuka/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.012s] byte-compiling /home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[1.012s] running install_data
+[1.013s] creating /home/ryokozuka/ros2_ws/install/mypkg/share/ament_index
+[1.013s] creating /home/ryokozuka/ros2_ws/install/mypkg/share/ament_index/resource_index
+[1.014s] creating /home/ryokozuka/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[1.014s] copying resource/mypkg -> /home/ryokozuka/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[1.014s] copying package.xml -> /home/ryokozuka/ros2_ws/install/mypkg/share/mypkg
+[1.015s] running install_egg_info
+[1.017s] Copying ../../build/mypkg/mypkg.egg-info to /home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[1.018s] running install_scripts
+[1.051s] writing list of installed files to '/home/ryokozuka/ros2_ws/build/mypkg/install.log'
+[1.078s] Invoked command in '/home/ryokozuka/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ryokozuka/ros2_ws/build/mypkg/prefix_override:/home/ryokozuka/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryokozuka/ros2_ws/build/mypkg/build install --record /home/ryokozuka/ros2_ws/build/mypkg/install.log --single-version-externally-managed
